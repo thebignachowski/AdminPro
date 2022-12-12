@@ -4,7 +4,7 @@ import { ChartData, ChartEvent, ChartType } from 'chart.js';
 @Component({
   selector: 'app-grafica1',
   templateUrl: './grafica1.component.html',
-  styles: [],
+  styleUrls: ['./grafica1.component.css'],
 })
 export class Grafica1Component {
   public doughnutChartLabels: string[] = [
